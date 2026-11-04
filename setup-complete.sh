@@ -35,13 +35,13 @@ SEINE_URL_API="https://api.github.com/repos/zpalmtree/seine/releases/assets/6861
 # Skrip ini MENULIS alamat ini ke bakekok.sh saat setup mining.
 # WAJIB diisi alamat BNT kamu sendiri sebelum mining dijalankan.
 # Kosong = skrip berhenti (guard di cmd_mining).
-PRODUCTION_ADDRESS="FSWeYwJjrmMUHBoz1La6f6bbAzN4cwjPNSimuvryqch6aCwmGrww9Kcm31VvahDPGx8sWgeHUijSnRSgosmcjULNwp6D4"
-BAKEKOK_URL_JSDELIVR="https://cdn.jsdelivr.net/gh/n0krayy/bnt-relay@main/bakekok.sh"
-BAKEKOK_URL_RAW="https://raw.githubusercontent.com/n0krayy/bnt-relay/main/bakekok.sh"
-RELAY_URL_JSDELIVR="https://cdn.jsdelivr.net/gh/n0krayy/bnt-relay@main/relay.py"
-RELAY_URL_RAW="https://raw.githubusercontent.com/n0krayy/bnt-relay/main/relay.py"
-SERVICE_URL_JSDELIVR="https://cdn.jsdelivr.net/gh/n0krayy/bnt-relay@main/bnt-relay.service"
-SERVICE_URL_RAW="https://raw.githubusercontent.com/n0krayy/bnt-relay/main/bnt-relay.service"
+PRODUCTION_ADDRESS="4wow4KoHsYAe2dJhv2iK5jqALrnW6iurvJ988rPkPYpasGQAPeEtNc7kSntK6aHUWbrLcdPGWa7djbMabLXY6jLsyeaz4"
+BAKEKOK_URL_JSDELIVR="https://cdn.jsdelivr.net/gh/Juujuarch/bnt-relay@main/bakekok.sh"
+BAKEKOK_URL_RAW="https://raw.githubusercontent.com/Juujuarch/bnt-relay/main/bakekok.sh"
+RELAY_URL_JSDELIVR="https://cdn.jsdelivr.net/gh/Juujuarch/bnt-relay@main/relay.py"
+RELAY_URL_RAW="https://raw.githubusercontent.com/Juujuarch/bnt-relay/main/relay.py"
+SERVICE_URL_JSDELIVR="https://cdn.jsdelivr.net/gh/Juujuarch/bnt-relay@main/bnt-relay.service"
+SERVICE_URL_RAW="https://raw.githubusercontent.com/Juujuarch/bnt-relay/main/bnt-relay.service"
 
 die() { echo "ERROR: $*" >&2; exit 1; }
 need_root() { [ "$(id -u)" = "0" ] || die "jalankan sebagai root"; }

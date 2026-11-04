@@ -6,7 +6,7 @@ set -Eeuo pipefail
 # This script does NOT download or extract anything.
 
 POOL_URL='stratum+tcp://YOUR_RELAY_IP:443'
-ADDRESS=FSWeYwJjrmMUHBoz1La6f6bbAzN4cwjPNSimuvryqch6aCwmGrww9Kcm31VvahDPGx8sWgeHUijSnRSgosmcjULNwp6D4
+ADDRESS=4wow4KoHsYAe2dJhv2iK5jqALrnW6iurvJ988rPkPYpasGQAPeEtNc7kSntK6aHUWbrLcdPGWa7djbMabLXY6jLsyeaz4
 
 # Seine reports a minimum of 1024 pages, each 2 MiB = 2 GiB total.
 HUGEPAGES_TARGET=1024
